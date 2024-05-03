@@ -1,0 +1,21 @@
+.market-based-on-currency_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.markets-card {
+  max-width: 30%;
+  min-width: 30%;
+  border-radius: 16px;
+  padding: 24px 16px;
+  cursor: pointer;
+  h2{
+    font-size: 18px;
+    text-align: center;
+  }
+  h1{
+    font-size: 22px;
+    text-align: right;
+  }
+}
